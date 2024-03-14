@@ -6,12 +6,7 @@ const App = () => {
   return (
     <SafeAreaView style={{flex: 1}}>
       <NavigationContainer>
-        <StatusBar
-          barStyle="dark-content"
-          //hidden={true}
-          translucent
-          backgroundColor={'transparent'}
-        />
+        <StatusBar translucent backgroundColor={'transparent'} />
         <InitialNavigation />
       </NavigationContainer>
     </SafeAreaView>
