@@ -45,6 +45,7 @@ export const styles = StyleSheet.create({
   watoText: {
     flexDirection: 'row',
     marginLeft: getProportionateScreenWidth(15),
+    alignItems: 'baseline',
   },
   waText: {
     fontFamily: fonts.SequelSansBlack,
@@ -53,7 +54,6 @@ export const styles = StyleSheet.create({
     lineHeight: getProportionateScreenHeight(65),
   },
   tTextImage: {
-    alignSelf: 'flex-end',
     resizeMode: 'contain',
     tintColor: colors.white,
     marginBottom: getProportionateScreenHeight(10),
@@ -61,7 +61,6 @@ export const styles = StyleSheet.create({
     width: 30,
   },
   oTextImage: {
-    alignSelf: 'flex-end',
     tintColor: colors.white,
     resizeMode: 'contain',
     marginBottom: getProportionateScreenHeight(10),
