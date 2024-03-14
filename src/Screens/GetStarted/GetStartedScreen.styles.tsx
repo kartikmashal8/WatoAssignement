@@ -81,7 +81,7 @@ export const styles = StyleSheet.create({
     letterSpacing: 1.5,
     color: colors.white,
     fontWeight: '400',
-    lineHeight: getProportionateScreenHeight(46),
+    lineHeight: getProportionateScreenHeight(40),
   },
   HomeFooterConatiner: {
     maxWidth: '100%',

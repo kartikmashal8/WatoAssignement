@@ -18,6 +18,7 @@ export const styles = StyleSheet.create({
     borderRadius: 5,
   },
   googleImage: {
+    resizeMode: 'contain',
     height: getProportionateScreenHeight(20),
     width: getProportionateScreenWidth(20),
     marginRight: getProportionateScreenWidth(10),
