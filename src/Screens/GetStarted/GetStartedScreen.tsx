@@ -7,7 +7,8 @@ import ClickableText from '../../components/ClickableText/ClickableText';
 const GetStartedScreen = ({navigation}) => {
   return (
     <View style={styles.HomeContainer}>
-      <View style={{flex: 1}}>
+      <View
+        style={{flex: 1, alignItems: 'flex-end', justifyContent: 'flex-end'}}>
         <Image source={images.sparkles} style={styles.spaklesImage} />
         <Image source={images.Vector8} style={styles.vector8} />
         <Image source={images.Vector5} style={styles.vector5} />
