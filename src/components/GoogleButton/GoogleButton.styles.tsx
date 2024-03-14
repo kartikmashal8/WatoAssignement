@@ -21,7 +21,7 @@ export const styles = StyleSheet.create({
     resizeMode: 'contain',
     height: getProportionateScreenHeight(20),
     width: getProportionateScreenWidth(20),
-    marginRight: getProportionateScreenWidth(10),
+    marginRight: 5,
   },
   googleButtonText: {
     fontSize: 16,
