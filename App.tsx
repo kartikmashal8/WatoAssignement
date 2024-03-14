@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import InitialNavigation from './src/navigations/stackNavigator/InitialNavigation';
 import {NavigationContainer} from '@react-navigation/native';
-import {SafeAreaView, StatusBar} from 'react-native';
+import {Platform, SafeAreaView, StatusBar} from 'react-native';
 import Orientation from 'react-native-orientation-locker';
 const App = () => {
   useEffect(() => {
@@ -11,7 +11,7 @@ const App = () => {
     };
   }, []);
   return (
-    <SafeAreaView style={{flex: 1}}>
+    <SafeAreaView style={{flex: 1, marginTop: Platform.OS === 'ios' ? -60 : 0}}>
       <NavigationContainer>
         <StatusBar
           barStyle={'dark-content'}

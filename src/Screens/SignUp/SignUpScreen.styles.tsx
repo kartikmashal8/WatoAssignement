@@ -1,4 +1,4 @@
-import {StyleSheet} from 'react-native';
+import {Platform, StyleSheet} from 'react-native';
 import {colors, fonts} from '../../core/Constants';
 import {
   getProportionateScreenHeight,
@@ -20,7 +20,7 @@ export const styles = StyleSheet.create({
     color: colors.white,
     marginBottom: getProportionateScreenHeight(40),
     fontSize: 20,
-    fontFamily: fonts.GTSuperRegular,
+    fontFamily: Platform.OS === 'ios' ? fonts.PTSerif : fonts.GTSuperRegular,
     fontWeight: '400',
     lineHeight: 20,
     zIndex: 10,

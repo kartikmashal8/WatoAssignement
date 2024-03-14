@@ -73,8 +73,7 @@ export const styles = StyleSheet.create({
     marginLeft: getProportionateScreenWidth(15),
   },
   subTitle: {
-    fontFamily:
-      Platform.OS === 'ios' ? fonts.GTSuperRegular : fonts.GTSuperMedium,
+    fontFamily: Platform.OS === 'ios' ? fonts.PTSerif : fonts.GTSuperMedium,
     width: '100%',
     height: 'auto',
     fontSize: 33,
@@ -99,7 +98,7 @@ export const styles = StyleSheet.create({
     fontWeight: Platform.OS === 'ios' ? '500' : 'bold',
     color: colors.white,
     fontSize: 20,
-    lineHeight: getProportionateScreenHeight(22),
+    lineHeight: getProportionateScreenHeight(25),
   },
   linearGradient: {
     width: '100%',

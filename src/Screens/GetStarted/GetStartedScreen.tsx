@@ -39,7 +39,7 @@ const GetStartedScreen = ({navigation}) => {
                   style={styles.linearGradient}
                   start={{x: 1, y: 1}}
                   end={{x: 0.5, y: 1}}>
-                  <Text style={styles.getStartedText}>Get Strated</Text>
+                  <Text style={styles.getStartedText}>{texts.getStarted}</Text>
                 </LinearGradient>
               </View>
             </LinearGradient>

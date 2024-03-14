@@ -15,6 +15,7 @@ export const fonts = {
   InterSemiBold: 'Inter-SemiBold',
   InterBold: 'InterBold',
   SequelSansBlack: 'Sequel Sans Black Disp',
+  PTSerif: 'PTSerif-Regular',
 };
 
 export const texts = {
