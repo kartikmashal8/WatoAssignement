@@ -1,0 +1,41 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/GT-Super-Display-Bold-Trial.ttf",
+      "sha1": "be78fdc30f4974fb572921437ae36cb9390acbc4"
+    },
+    {
+      "path": "src/assets/fonts/GT-Super-Display-Medium-Trial.ttf",
+      "sha1": "1eee6f246bc812e0eedf436ed55b58d30d5d6581"
+    },
+    {
+      "path": "src/assets/fonts/GT-Super-Display-Regular-Trial.ttf",
+      "sha1": "df7aa9b98eb9840c540e3d4d1f9df7c3c8cf2b20"
+    },
+    {
+      "path": "src/assets/fonts/GT-Super-Display-Super-Trial.ttf",
+      "sha1": "e890cb8b3f664604087ffad45b6b3c7e2cb12d06"
+    },
+    {
+      "path": "src/assets/fonts/Inter-Bold.ttf",
+      "sha1": "47ff07c75746682133b81e7ac0537ce50a4c9916"
+    },
+    {
+      "path": "src/assets/fonts/Inter-Medium.ttf",
+      "sha1": "e76f580811e031813e7150131a0724811cdd737a"
+    },
+    {
+      "path": "src/assets/fonts/Inter-Regular.ttf",
+      "sha1": "cfa780d0b50b2bb7eacb82984f1b18a95aaa40c5"
+    },
+    {
+      "path": "src/assets/fonts/Inter-SemiBold.ttf",
+      "sha1": "5e0c44e57e7e090252d79f622899e67585bb892c"
+    },
+    {
+      "path": "src/assets/fonts/Sequel Sans Black Disp.ttf",
+      "sha1": "2157aead131ad9ee7e2fc25858a441257e74d903"
+    }
+  ]
+}
