@@ -38,7 +38,7 @@ STEPS TO RUN APPLICATION ON ANDROID
 2. Once the repository is cloned, open the folder in Visual Studio Code (or any other) 
 3. Open the terminal targeting inside the project folder and run the command
    
-         </ IN TERMINAL> npm install
+          npm install
 
    this will install all the required dependencies.
 4. Open Andriod Studio, create a device of your choice, and run the emulator
