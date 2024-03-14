@@ -14,7 +14,7 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     borderRadius: 10,
     backgroundColor: 'transparent',
-    borderWidth: getProportionateScreenWidth(1),
+    borderWidth: 1,
     borderColor: colors.white,
   },
   eyeIcon: {

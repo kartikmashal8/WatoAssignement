@@ -54,17 +54,19 @@ export const styles = StyleSheet.create({
   },
   tTextImage: {
     alignSelf: 'flex-end',
+    resizeMode: 'contain',
     tintColor: colors.white,
     marginBottom: getProportionateScreenHeight(10),
-    height: getProportionateScreenHeight(45),
-    width: getProportionateScreenWidth(28),
+    height: 50,
+    width: 30,
   },
   oTextImage: {
     alignSelf: 'flex-end',
     tintColor: colors.white,
+    resizeMode: 'contain',
     marginBottom: getProportionateScreenHeight(10),
-    height: getProportionateScreenHeight(35),
-    width: getProportionateScreenWidth(37),
+    height: 40,
+    width: 40,
   },
   subTitleContainer: {
     maxWidth: '100%',

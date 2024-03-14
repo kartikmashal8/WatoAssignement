@@ -9,7 +9,7 @@ export const styles = StyleSheet.create({
   GoogleButtonContainer: {
     width: '92%',
     flexDirection: 'row',
-    borderWidth: getProportionateScreenWidth(1),
+    borderWidth: 1,
     borderColor: colors.white,
     height: getProportionateScreenHeight(45),
     alignSelf: 'center',
@@ -24,7 +24,7 @@ export const styles = StyleSheet.create({
   },
   googleButtonText: {
     fontSize: 16,
-    lineHeight: 22,
+    lineHeight: getProportionateScreenHeight(22),
     fontWeight: '500',
     letterSpacing: 0.5,
     color: colors.white,

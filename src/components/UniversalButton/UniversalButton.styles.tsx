@@ -15,7 +15,7 @@ export const styles = StyleSheet.create({
   buttonText: {
     color: colors.backgroundBlack,
     fontSize: 18,
-    lineHeight: 22,
+    lineHeight: getProportionateScreenHeight(22),
     fontWeight: '500',
     fontFamily:
       Platform.OS === 'ios' ? fonts.InterRegular : fonts.InterSemiBold,
