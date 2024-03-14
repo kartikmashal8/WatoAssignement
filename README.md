@@ -10,7 +10,8 @@ multiple Emulators and simulators such as
    - iPhone 14 Pro iOS 17.1
    - iPhone 14 iOS 17.0
    - iPhoneXE 3rd gen 17.1
-and on Physical devices 
+
+And on Physical devices 
    - (TAB) Samsung Galaxy A8 Android 13
    - (Mobile) Samsung Galaxy A50 Android 11.
 
