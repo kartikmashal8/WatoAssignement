@@ -4,6 +4,7 @@ import {styles} from './GetStartedScreen.styles';
 import {images} from '../../core/images';
 import LinearGradient from 'react-native-linear-gradient';
 import ClickableText from '../../components/ClickableText/ClickableText';
+import {screens, texts} from '../../core/Constants';
 const GetStartedScreen = ({navigation}) => {
   return (
     <View style={styles.HomeContainer}>
@@ -15,20 +16,18 @@ const GetStartedScreen = ({navigation}) => {
       </View>
       <View style={styles.cotentContainer}>
         <View style={styles.watoText}>
-          <Text style={styles.waText}>wa</Text>
+          <Text style={styles.waText}>{texts.waText}</Text>
           <Image source={images.tText} style={styles.tTextImage} />
           <Image source={images.oText} style={styles.oTextImage} />
         </View>
         <View style={styles.subTitleContainer}>
-          <Text style={styles.subTitle}>
-            Zero Cost{'\n'}WhatsApp Messaging{'\n'}platform
-          </Text>
+          <Text style={styles.subTitle}>{texts.zeroCostText}</Text>
         </View>
         <View />
         <View style={styles.HomeFooterConatiner}>
           <TouchableOpacity
             style={styles.getStartedButton}
-            onPress={() => navigation.navigate('Login')}>
+            onPress={() => navigation.navigate(screens.login)}>
             <LinearGradient
               colors={['#696C70', '#FFFFFF']}
               style={styles.linearGradientBorder}
@@ -46,10 +45,10 @@ const GetStartedScreen = ({navigation}) => {
             </LinearGradient>
           </TouchableOpacity>
           <View style={styles.FooterElements}>
-            <Text style={styles.footerText}>Already have an Account? </Text>
+            <Text style={styles.footerText}>{texts.alreadyAccountText}</Text>
             <ClickableText
-              text={'Sign in instead'}
-              onClick="Login"
+              text={texts.signinInsted}
+              onClick={screens.login}
               navigation={navigation}
             />
           </View>

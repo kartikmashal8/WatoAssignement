@@ -8,7 +8,7 @@ import UniversalButton from '../../components/UniversalButton';
 import {getProportionateScreenHeight} from '../../core/utils';
 import GoogleButton from '../../components/GoogleButton';
 import CheckBox from '@react-native-community/checkbox';
-import {colors} from '../../core/Constants';
+import {colors, screens, texts} from '../../core/Constants';
 const initialState = {
   privacyPolicy: false,
 };
@@ -17,7 +17,7 @@ const SignUpScreen = ({navigation}) => {
   return (
     <View style={styles.SignUpContainer}>
       <View style={styles.signUpContainer}>
-        <Text style={styles.signUpTitle}>Please sign-up for your account</Text>
+        <Text style={styles.signUpTitle}>{texts.pleaseSignInText}</Text>
         <View>
           <LinearGradient
             colors={['#272728', '#5D624E']}
@@ -39,16 +39,16 @@ const SignUpScreen = ({navigation}) => {
                   })
                 }
               />
-              <Text style={styles.IagreeText}>I agree</Text>
+              <Text style={styles.IagreeText}>{texts.iAgree}</Text>
               <ClickableText
-                text="to privacy policy & terms"
-                onClick="SignUp"
+                text={texts.privacyPolicyText}
+                onClick={screens.signup}
                 navigation={navigation}
               />
             </View>
             <UniversalButton
-              text="Sign Up"
-              onClick="Login"
+              text={texts.signUp}
+              onClick={screens.login}
               navigation={navigation}
             />
             <View
@@ -57,11 +57,11 @@ const SignUpScreen = ({navigation}) => {
                 marginTop: getProportionateScreenHeight(15),
               }}>
               <Text style={styles.createAccountText}>
-                Already have an account?{' '}
+                {texts.alreadyAccountText}
               </Text>
               <ClickableText
-                onClick="Login"
-                text="Sign in instead"
+                onClick={screens.login}
+                text={texts.signinInsted}
                 navigation={navigation}
               />
             </View>

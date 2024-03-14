@@ -7,11 +7,12 @@ import ClickableText from '../../components/ClickableText/ClickableText';
 import UniversalButton from '../../components/UniversalButton';
 import {getProportionateScreenHeight} from '../../core/utils';
 import GoogleButton from '../../components/GoogleButton';
+import {screens, texts} from '../../core/Constants';
 const LoginScreen = ({navigation}) => {
   return (
     <View style={styles.LoginContainer}>
       <View style={styles.loginContainer}>
-        <Text style={styles.loginTitle}>Please sign-in to your account</Text>
+        <Text style={styles.loginTitle}>{texts.pleaseSignInText}</Text>
         <View style={styles.loginTextInputContainer}>
           <LinearGradient
             colors={['#272728', '#5D624E']}
@@ -22,14 +23,14 @@ const LoginScreen = ({navigation}) => {
             <Input placeHolder="Password" />
             <View style={styles.forgotPassword}>
               <ClickableText
-                onClick="SignUp"
-                text="Forgot Password?"
+                onClick={screens.signup}
+                text={texts.forgotPassword}
                 navigation={navigation}
               />
             </View>
             <UniversalButton
-              text="Login"
-              onClick="SignUp"
+              text={texts.login}
+              onClick={screens.signup}
               navigation={navigation}
             />
             <View
@@ -38,11 +39,11 @@ const LoginScreen = ({navigation}) => {
                 marginTop: getProportionateScreenHeight(15),
               }}>
               <Text style={styles.createAccountText}>
-                New to our platform?{' '}
+                {texts.newToPlatform}
               </Text>
               <ClickableText
-                onClick="SignUp"
-                text="Create an account"
+                onClick={screens.signup}
+                text={texts.createAccount}
                 navigation={navigation}
               />
             </View>
@@ -54,7 +55,7 @@ const LoginScreen = ({navigation}) => {
                   marginBottom: getProportionateScreenHeight(30),
                 },
               ]}>
-              or
+              {texts.or}
             </Text>
             <GoogleButton />
           </LinearGradient>

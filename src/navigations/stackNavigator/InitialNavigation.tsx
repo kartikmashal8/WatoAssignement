@@ -9,7 +9,10 @@ const Stack = createNativeStackNavigator();
 const InitialNavigation = () => {
   return (
     <Stack.Navigator
-      screenOptions={{headerShown: false}}
+      screenOptions={{
+        headerShown: false,
+        animation: 'slide_from_right', // Set custom animation
+      }}
       initialRouteName="GetStarted">
       <Stack.Screen name="GetStarted" component={GetStartedScreen} />
       <Stack.Screen name="Login" component={LoginScreen} />
