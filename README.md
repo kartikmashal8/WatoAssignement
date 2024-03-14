@@ -15,9 +15,9 @@ and on Physical devices
    - (Mobile) Samsung Galaxy A50 Android 11.
 
 
-- Requirements run the application in your system
-   Any code editor (possibly Android Studio Code)
-   Metro bundler
+Requirements run the application in your system
+   - Any code editor (possibly Android Studio Code)
+   - Metro bundler
    - For Android
       - React-Native 0.72.0 (0.72)
       - Java JDK 11
