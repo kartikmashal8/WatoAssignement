@@ -26,8 +26,7 @@ export const styles = StyleSheet.create({
     zIndex: 10,
   },
   linearGradientBackground: {
-    width: '100%',
-    height: '95%',
+    flex: 1,
     alignItems: 'center',
     paddingTop: getProportionateScreenHeight(10),
     borderRadius: 15,
@@ -54,5 +53,9 @@ export const styles = StyleSheet.create({
     fontFamily: fonts.InterRegular,
     fontWeight: '400',
     color: colors.white,
+  },
+  signupTextInputContainer: {
+    flex: 1,
+    justifyContent: 'center',
   },
 });

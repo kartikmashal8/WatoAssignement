@@ -24,8 +24,7 @@ export const styles = StyleSheet.create({
     zIndex: 10,
   },
   linearGradientBackground: {
-    width: '100%',
-    height: '95%',
+    flex: 1,
     alignItems: 'center',
     paddingTop: getProportionateScreenHeight(10),
     borderRadius: 15,
@@ -44,5 +43,8 @@ export const styles = StyleSheet.create({
     color: colors.white,
     letterSpacing: 0.2,
   },
-  loginTextInputContainer: {},
+  loginTextInputContainer: {
+    flex: 1,
+    justifyContent: 'center',
+  },
 });
